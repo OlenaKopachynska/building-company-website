@@ -1,0 +1,42 @@
+.footer {
+  background-color: #2c2c2c;
+  color: #ffffff;
+  padding-top: 58px;
+  // padding-right: 10px;
+  // padding-left: 10px;
+  // padding-bottom: 24px;
+
+  .logo_container img {
+    color: red;
+    // margin-left: 100px;
+    // margin-right: 100px;
+  }
+
+  h5 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 25px;
+  }
+
+  .contacts_container p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+  }
+
+  .info_container li {
+    padding-bottom: 15px;
+
+    a {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px; /* 171.429% */
+      letter-spacing: 0.42px;
+    }
+  }
+}

@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('./assets/fonts/TT\ Hoves\ Pro\ Trial\ Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'TT Hoves Light';
+    src: url('./assets/fonts/TT\ Hoves\ Pro\ Trial\ Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'TT Hoves';
+    
+}
+
+
